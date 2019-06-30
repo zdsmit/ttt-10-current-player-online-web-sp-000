@@ -1,4 +1,4 @@
-board1 = ["", " ", " ", "", " ", " ", "", " ", " "]
+board1 = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board1)
   counter = 0
@@ -11,6 +11,6 @@ def turn_count(board1)
   return counter
 end
 
-def current_player()
+def current_player(board)
 
 end
