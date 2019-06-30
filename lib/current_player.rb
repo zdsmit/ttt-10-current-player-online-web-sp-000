@@ -1,6 +1,6 @@
 board1 = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def turn_count(board1)
+def turn_count(board)
   counter = 0
   board1.each do |position|
     if position == "X" || position == "O"
@@ -12,5 +12,5 @@ def turn_count(board1)
 end
 
 def current_player(board)
-
+  
 end
