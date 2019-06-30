@@ -5,8 +5,8 @@ def turn_count(board1)
     counter = 0
     if position == "X" || position == "O"
       counter + 1
-      puts counter
-      return counter
     end
   end
+  puts counter
+  return counter
 end
